@@ -1,6 +1,12 @@
 parameters:
+    level: max
+    paths:
+        - src
     reportUnmatchedIgnoredErrors: false
     checkMissingIterableValueType: false
+
+    symfony:
+       console_application_loader: src/FOSSyliusImportExportPlugin.php
 
     excludes_analyse:
         # Makes PHPStan crash
